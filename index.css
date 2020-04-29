@@ -1,7 +1,10 @@
-#card{
-    width: 300px;
-    height:400px;
+.jumbotron{
+    margin-top: 50px;
+    height:700px
+    
+    
 }
-body{
-    background-color: pink;
+.attribution{
+    text-align: center;
+    
 }
