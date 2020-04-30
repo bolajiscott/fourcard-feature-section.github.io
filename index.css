@@ -10,7 +10,13 @@
 }
 h3{
     text-align: center;
+    font-family: 'Poppins', sans-serif;
 }
 h6{
     text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+.powered{
+    font-weight: 400px;
+    color:  hsl(234, 12%, 34%)
 }
