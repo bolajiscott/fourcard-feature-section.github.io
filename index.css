@@ -6,6 +6,11 @@
 }
 .attribution{
     text-align: center;
+    background-color: palevioletred;
+    height: 100px;
+    position: relative;
+    margin-bottom: 0px;
+
     
 }
 h3{
@@ -20,3 +25,74 @@ h6{
     font-weight: 400px;
     color:  hsl(234, 12%, 34%)
 }
+.new{
+    color: lightgrey;
+    font-weight: 2px;
+    font-size: small;
+}
+.next{
+    color: lightgrey;
+    font-weight:200px
+}
+
+
+.conatainer-grid{
+    display: flex;
+}
+.box1{
+    background-color: whitesmoke;
+    width: 280px;
+    height: 200px;
+    margin-left: 350px;
+    margin-top: 20px;
+    border-top-style: solid;
+    border-color:hsl(0, 78%, 62%);
+    border-radius: 2%;
+    
+    
+    
+    
+    
+}
+.box2{
+    background-color: whitesmoke;
+    width: 280px;
+    height: 200px;
+    padding-top: -30%;
+    border-top-style: solid;
+    border-color: hsl(180, 62%, 55%);
+    border-radius: 2%;
+    
+    
+    
+    
+    
+}
+.box3{
+    background-color: whitesmoke;
+    width: 280px;
+    height: 200px;
+    margin-left: 350px;
+    margin-top: -180px;
+    border-top-style: solid;
+    border-color: hsl(34, 97%, 64%);
+    border-radius: 2%;
+    
+    
+    
+}
+
+.box4{
+
+    background-color: whitesmoke;
+    width: 280px;
+    height: 200px;
+    margin-top: -30%;
+    margin-left: 62%;
+    border-top-style: solid;
+    border-color:  hsl(212, 86%, 64%);
+    border-radius: 2%;
+
+}
+
+    
