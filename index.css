@@ -36,10 +36,8 @@ h6{
 }
 
 
-.conatainer-grid{
-    display: flex;
-}
 .box1{
+    display: hidden;
     background-color: whitesmoke;
     width: 280px;
     height: 200px;
@@ -94,5 +92,18 @@ h6{
     border-radius: 2%;
 
 }
+h2{
+    margin-top: 1em;
+    padding-left: 1em;
+    font-size: x-large;
+    font-family:'Poppins', sans-serif;
+    justify-content: left;
+} 
+.zn{
+    padding-left: 1em;
+    font-family:'Poppins', sans-serif;
+    font-size:small;
+    font-weight: lighter;  
+    text-align: justify; 
+}
 
-    
