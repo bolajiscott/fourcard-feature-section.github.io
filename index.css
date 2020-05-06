@@ -34,7 +34,9 @@ h6{
     color: lightgrey;
     font-weight:200px
 }
-
+.flex-container{
+    display:flex;
+}
 
 .box1{
     display: hidden;
@@ -56,12 +58,11 @@ h6{
     background-color: whitesmoke;
     width: 280px;
     height: 200px;
+    margin-left: 50px;
     padding-top: -30%;
     border-top-style: solid;
     border-color: hsl(180, 62%, 55%);
     border-radius: 2%;
-    
-    
     
     
     
@@ -90,6 +91,7 @@ h6{
     border-top-style: solid;
     border-color:  hsl(212, 86%, 64%);
     border-radius: 2%;
+    
 
 }
 h2{
@@ -109,4 +111,25 @@ h2{
 svg{
 margin-left: 200px;
 }
+
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+  }
+
+@media only screen and (max-width: 1440px) {
+    #container-grid{width:200px; margin: 2px; height: 50px;}
+    
+    }
+    
+    
+
+@media only screen and (max-width: 375px) {
+    #container-grid{width:200px; margin: 20px; height: 50px;}
+    
+    
+}
+  
+
 
